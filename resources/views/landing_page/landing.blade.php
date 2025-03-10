@@ -20,10 +20,10 @@
         </div>
         
         <div class="flex gap-[50px] text-lg font-normal">
-            <a href="">Home</a>
-            <a href="">Developer</a>
-            <a href="">Paket</a>
-            <a href="">Media</a>
+            <a class="hover:text-[#02363C]" href="">Home</a>
+            <a class="hover:text-[#02363C]" href="">Developer</a>
+            <a class="hover:text-[#02363C]" href="">Paket</a>
+            <a class="hover:text-[#02363C]" href="">Media</a>
         </div>
         <Button class="px-[50px] py-[11px] rounded bg-[#02363C] text-[#ffffff] text-[13px] font-semibold">ORDER NOW</Button>
     </nav>
