@@ -3,7 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <title>Upylon Dev</title>
+    <link rel="icon" type="image/png" href="image/logo.png">
     <link href="https://fonts.googleapis.com/css2?family=Kalam:wght@300;400;700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     @vite('resources/css/app.css')
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
@@ -11,8 +13,12 @@
     <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
 </head>
 <body>
-    <nav class="fixed w-full h-[80px] bg-[#ffffff] flex justify-between px-[40px] items-center">
-        <img src="{{ asset('image/logo.png') }}" alt="logo" class="h-[65px]">
+    <nav class="fixed w-full h-[80px] bg-[#ffffff] flex items-center justify-between px-[40px] items-center">
+        <div class="flex items-center">
+            <img src="{{ asset('image/logo.jpg') }}" alt="logo" class="h-[65px]">
+            <h1 class="text-[35px] font-bold text-[#02363C]" >pylon</h1>
+        </div>
+        
         <div class="flex gap-[50px] text-lg font-normal">
             <a href="">Home</a>
             <a href="">Developer</a>
@@ -52,7 +58,7 @@
         <div class="swiper-wrapper">
           <div class="swiper-slide">
 
-            <div class="flex h-[550px] w-full items-center">
+            <div class="flex h-[550px] w-full justify-center items-center">
                 <div class="w-1/2 px-[50px] flex flex-col gap-[15px]">
                     <h1 class="text-[50px] font-semibold">What a Simko?</h1>
                     <p class="text-[20px] mb-[10px]">Enjoy the convenience of managing boarding houses with our integrated web application. Every feature listed in this brochure can be purchased according to your needs, whether software or hardware. We have served dozens of clients across various cities, and they have experienced the benefits of our efficient and innovative system.</p>
@@ -86,7 +92,7 @@
           </div>
           <div class="swiper-slide">
 
-            <div class="flex h-[550px] w-full items-center">
+            <div class="flex h-[550px] w-full justify-center items-center">
                 <div class="w-1/2 px-[50px] flex flex-col gap-[15px]">
                     <h1 class="text-[50px] font-semibold">What a Simko?</h1>
                     <p class="text-[20px] mb-[10px]">Enjoy the convenience of managing boarding houses with our integrated web application. Every feature listed in this brochure can be purchased according to your needs, whether software or hardware. We have served dozens of clients across various cities, and they have experienced the benefits of our efficient and innovative system.</p>
@@ -120,7 +126,7 @@
           </div>
           <div class="swiper-slide">
 
-            <div class="flex h-[550px] w-full items-center">
+            <div class="flex h-[550px] w-full justify-center items-center">
                 <div class="w-1/2 px-[50px] flex flex-col gap-[15px]">
                     <h1 class="text-[50px] font-semibold">What a Simko?</h1>
                     <p class="text-[20px] mb-[10px]">Enjoy the convenience of managing boarding houses with our integrated web application. Every feature listed in this brochure can be purchased according to your needs, whether software or hardware. We have served dozens of clients across various cities, and they have experienced the benefits of our efficient and innovative system.</p>
