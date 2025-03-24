@@ -11,9 +11,10 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css" />
   <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <link rel="stylesheet" href="{{ asset('css/landing.css') }}">
+    <script src="{{ asset('js/landing.js') }}" defer></script>
 </head>
 <body>
-    <nav class="fixed w-full h-[80px] bg-[#ffffff] flex items-center justify-between px-[40px] items-center">
+    <nav class="fixed w-full h-[120px] bg-[#ffffff] flex items-center justify-between px-[40px] items-center">
         <div class="flex items-center">
             <img src="{{ asset('image/logo.jpg') }}" alt="logo" class="h-[65px]">
             <h1 class="text-[35px] font-bold text-[#02363C]" >pylon</h1>
@@ -25,17 +26,17 @@
             <a class="hover:text-[#02363C]" href="">Paket</a>
             <a class="hover:text-[#02363C]" href="">Media</a>
         </div>
-        <Button class="px-[50px] py-[11px] rounded bg-[#02363C] text-[#ffffff] text-[13px] font-semibold">ORDER NOW</Button>
+        <Button class="px-[50px] py-[11px] cursor-pointer rounded bg-[#02363C] text-[#ffffff] text-[13px] font-semibold hover:bg-[#5D9894]">ORDER NOW</Button>
     </nav>
 
-    <img class="pt-[80px] absolute z-[-1]" src="{{ asset("image/bg_1.png") }}" alt="">
+    <img class="pt-[120px] absolute z-[-1]" src="{{ asset("image/bg_1.png") }}" alt="">
 
     <div class="flex flex-col justify-center h-screen w-[53%] px-[80px] gap-[10px]">
         <h1 class="text-[56px] font-bold">Enhance Your Business By Building an Information System.</h1>
         <p class="text-[17px]" >Upylon is a technology service provider specializing in comprehensive digital solutions, including web development, desktop applications, IoT, and mobile applications. We cater to various needs ranging from individuals and personal portfolios to businesses and groups, focusing on creating professional, innovative, and tailored solutions to help our clients achieve their digital goals.</p>
         <div class="flex gap-[20px]">
-            <button class="px-[50px] py-[13px] rounded bg-[#02363C] text-[#ffffff] border-[1px] border-[#02363C] text-[14px] font-semibold" >CONTACT US</button>
-            <button class="px-[50px] py-[13px] rounded bg-[#ffffff] text-[#02363C] border-[1px] border-[#02363C] text-[14px] font-semibold" >OUR PROJECT</button>
+            <button class="px-[50px] py-[13px] rounded bg-[#02363C] text-[#ffffff] border-[1px] border-[#02363C] text-[14px] font-semibold hover:bg-[#5D9894]" >CONTACT US</button>
+            <button class="px-[50px] py-[13px] rounded bg-[#ffffff] text-[#02363C] border-[1px] border-[#02363C] text-[14px] font-semibold hover:bg-[#5D9894]" >OUR PROJECT</button>
         </div>
     </div>
 
@@ -169,23 +170,6 @@
       <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     
       <!-- Initialize Swiper -->
-      <script>
-        var swiper = new Swiper(".mySwiper", {
-          spaceBetween: 30,
-          centeredSlides: true,
-          autoplay: {
-            delay: 2500,
-            disableOnInteraction: false,
-          },
-          pagination: {
-            el: ".swiper-pagination",
-            clickable: true,
-          },
-          navigation: {
-            nextEl: ".swiper-button-next",
-            prevEl: ".swiper-button-prev",
-          },
-        });
-      </script>
+      
 </body>
 </html>
